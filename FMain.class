@@ -1,0 +1,24 @@
+' Gambas class file
+
+
+
+Public Sub form_Close()
+  
+  
+  
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Button1_Click()
+Dim f1 As File
+Dim a As String 
+Dim aa As String 
+  Shell "zip " & TextBox1.Text & " " & TextBox4.Text & " "
+  Sleep 2
+  
+End
+
+

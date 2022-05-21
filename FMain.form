@@ -1,0 +1,28 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,50,14)
+  Font = Font["-2"]
+  Background = &HBFBFBF&
+  Text = ("zip")
+  { Button1 Button
+    MoveScaled(1,9,48,3)
+    Text = ("open")
+  }
+  { Label4 Label
+    MoveScaled(2,1,14,4)
+    Text = ("dir *.*")
+  }
+  { TextBox4 TextBox
+    MoveScaled(18,0,29,4)
+    Text = ("~/zips/*.*")
+  }
+  { Label1 Label
+    MoveScaled(2,6,16,3)
+    Text = ("file to:")
+  }
+  { TextBox1 TextBox
+    MoveScaled(18,5,29,4)
+    Text = ("~/my.zip")
+  }
+}
